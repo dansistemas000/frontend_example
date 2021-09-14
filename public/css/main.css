@@ -1,0 +1,252 @@
+.container-border{
+	border: 1px solid #ced4da;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+
+.margin-bottom{
+	margin-bottom: 10px;
+}
+
+.select2-container--bootstrap4 .select2-selection{
+	background-color: #F6F6F6;
+}
+
+.select2-container--bootstrap4 .select2-dropdown{
+	border-color: #FEEE00;
+}
+
+.select2-container--bootstrap4.select2-container--focus .select2-selection, .select2-container--bootstrap4.select2-container--open .select2-selection{
+	border-color: #FEEE00;
+}
+
+.select2-container--bootstrap4 .select2-selection--single{
+	height: 56px;
+	margin-top: 4.5px;
+}
+
+.select2 .select2-container .select2-container--bootstrap4{
+	width: 85%;
+    margin: 0 auto;
+}
+
+.select2-container--bootstrap4 .select2-selection--single .select2-selection__rendered{
+	padding-top: 8px;
+	font-size: 15px;
+}
+
+.select2-container--bootstrap4 .select2-results__option{
+	font-size: 15px;
+}
+
+.result{
+	max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.result-error{
+  	border: 2px dashed red;
+	background-color: #FFEDED;
+	color: red;
+}
+
+.result-success{
+    background-color: #E9FCFA;
+    border: 2px dashed #00B58E;
+    color: #00B58E;
+}
+
+.result-process{
+	color: #8a8888;
+	font-size: 20px;
+}
+
+.result-warning{
+    background-color: #fcfca9;
+    border: 2px dashed #f7a002;
+    color: #f7a002;
+}
+
+.exit{
+    float: right;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.exit:hover{
+    text-shadow: 1px 1px #000000;
+}
+
+.btn-confirm{
+	background-color: #39ACE7;
+	color: white;
+	font-weight: 200;
+}
+
+.btn-confirm:hover{
+	background-color:#1496d8;
+	color: white;
+	font-weight: 200;
+}
+
+.label-title{
+	width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: #4cb2e6;
+}
+
+
+.permissions{
+	width: 50%;
+	border: 1px solid #dee2e6;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.p-gray{
+	background-color: #F2F2F2;
+	border: 1px solid #dee2e6;
+}
+
+.p-white{
+	background-color: #FFFFFF;
+	border: 1px solid #dee2e6;
+}
+
+.permission-value{
+	padding:10px 5px;
+}
+
+.btn-permission-delete{
+	background: red;
+    color: white!important;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.btn-permission-delete:hover{
+	cursor: pointer;
+	background-color: #c70b0b;
+}
+
+.permission-text{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+.file-input::before {
+  	background: #D95350;
+    content: 'Seleccione Archivo';
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 10px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+    visibility: visible;
+    position: absolute;
+    width: 155px;
+    color: white;
+    top: 18px;
+}
+.file-input:hover::before {
+	border-color: #00AB85;
+}
+.file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+
+.download{
+	font-weight: bold;
+	color: #39ACE7;
+}
+
+.download:hover{
+	cursor: pointer;
+}
+
+.download:visited{
+	font-weight: bold;
+	color: #39ACE7;
+}
+
+
+.select2-container li:only-child,
+.select2-container input:placeholder-shown {
+  width: 100% !important;
+  text-align: center;
+}
+
+.select2-selection__choice{
+	margin: 2px!important;
+	padding: 2px!important;
+}
+
+ 
+  /* a {
+    color: #92badd;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  
+  .error-message{
+    background-color: #FFEDED;
+    border: 1px dashed #FA206A;
+    color: #FA206A;
+    margin-bottom: 10px;
+    font-weight: bold;
+  } */
+  
+  
+  
+  
+/*   
+
+  
+  .input-error-message{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .input-error{
+    border-bottom: 2px solid red!important; 
+  }
+  
+  
+  
+  
+  /* OTHERS */
+  
+  /* *:focus {
+      outline: none;
+  } 
+  
+  #icon {
+    width:60%;
+  }
+   */
