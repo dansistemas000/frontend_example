@@ -1,0 +1,8 @@
+request_reference,request_id,status
+,,Request_id no encontrado.
+999999,,Request_id no encontrado.
+,,Request_id no encontrado.
+88888888976,,Request_id no encontrado.
+5871421,00000000000007105547,Fechas actualizadas
+,,Request_id no encontrado.
+,,Request_id no encontrado.

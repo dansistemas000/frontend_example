@@ -1,0 +1,365 @@
+/* STRUCTURE */
+
+body, html {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+	background-color: #FEEE00;
+	padding-top: 65px;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.footer{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  background-color: #343a40;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-top: 40px;
+}
+
+/* FORM */
+
+    /* Contenedor flotante centrado */
+  .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+  }
+
+
+  /* Contenedor de formulario */
+  .form-content {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+
+    /* contenedor de formulario mediano */
+  .form-content--medium{
+    max-width: 800px;
+  }
+
+    /* contenedor flotante que almacena el logo-manzana */
+  .form-content__content-logo{
+    position: absolute;
+    right: 20px;
+    top: -35px;
+  }
+
+    /* tamaño de logo-manzana */
+  .form-content__logo{
+    width: 80px;
+  }
+
+
+    /* Cabecera de formulario */
+  .form-header{
+    width: 92%; 
+    margin: 10px auto;
+    border-bottom: 1px solid #dce8f1;
+  }
+
+    /* Cuerpo del formulario */
+  .form-body{
+    width: 92%; 
+    margin: 10px auto;
+  }
+
+
+    /* pie de formulario */
+  .form-footer {
+  background-color: #F6F6F6;
+  border-top: 1px solid #dce8f1;
+  padding: 15px 25px 15px 25px;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  margin-top: 10px;
+  }
+
+/* END FORM */
+
+/* ELEMENTS INPUTS, BUTTOMS, Y MESSAGES */
+
+
+    /* estilo para el titulo del formulario */
+  .form-header__title{
+    text-align: center; 
+    color:#E3211E;
+    font-weight: bold;
+    font-size:25px;
+    padding-bottom: 15px;
+  }
+    /* estilo para los subtitulos de los formularios */
+  .form-body__sub-title{
+    text-align: center; 
+    color:#4EB2E6;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+    /* estilo para el texto de instrucciones  */
+  .form-body__instructions-content{
+    text-align: justify;
+    font-weight: bold;
+    padding-bottom: 15px;
+  }
+    /* estilo de botones */
+  input[type=button], input[type=submit], input[type=reset], button[type=submit]  {
+    background-color: #4cb2e6;
+    border: none;
+    color: white;
+    padding: 15px 5px 15px 5px;
+    width: 60%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px 0px 10px 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+    /* estilo de botones al pasar mouse */
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, button[type=submit]:hover  {
+    background-color: #20a4e6;
+  }
+
+
+    /* estilo de botones al activarlos */  
+  input[type=button]:active, input[type=submit]:active, input[type=reset]:active, button[type=submit]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+    /* estilo al desactivar botones */
+  input[type=button]:disabled, input[type=submit]:disabled, input[type=reset]:disabled, button[type=submit]:disabled{
+    background-color: #8f9192;
+    cursor: not-allowed;
+  }
+    /* estilos de cajas de texto */
+  input[type=text], input[type=password], input[type=file]  {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #ced4da;
+  }
+
+    /* estilo al desactivar texto */
+  input[type=text]:read-only{
+    background-color: #aaa7a7;
+  }
+
+    /* texto antes de activar caja */
+  input[type=text]:placeholder, input[type=password]:placeholder {
+    color: #495057;
+  }
+
+    /* begin estilos de fichero */
+  input[type=file]::-webkit-file-upload-button {
+    display: none;
+  }
+
+  input[type=file]{
+    background-image: linear-gradient(to bottom, #fbf7c97a, #b8ab16bd);
+    cursor: pointer;
+    padding: 5px 30px;
+    color: #00070a;
+    font-weight: bold;
+  }
+  
+  input[type=file]::before {
+    font-family: FontAwesome;
+    content: "\f07c";
+    color: black;
+    font-size: 25px;
+    padding-right: 30px;
+  }
+
+  input[type=file]:hover{
+    background-image: linear-gradient(to bottom, #fef051, #b8ab16);
+  }
+   
+  input[type=text]:focus, input[type=password]:focus{
+    background-color: #fff;
+    border-bottom: 2px solid #FEEE00;
+  }
+    /* end estilos de fichero */
+
+    /* begin estilos de radio button */
+  .container-radio{
+    position: relative;
+    padding:5px 5px 5px 50px;
+    text-align: left;
+  }
+  
+  .container-radio input{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+  }
+ 
+  .container-radio input + i{
+    background: #f0f0f0;
+    border:2px solid rgba(0,0,0,0.2);
+    position: absolute; 
+    left: 0;
+    top: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    left: 15px;
+  }
+ 
+
+  .container-radio input + i:before{
+    content: '';
+    display: block;
+    height: 18px;
+    width: 18px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 4px;
+    left: 4px;
+    background:#faa403;/*color al seleccionar radio*/
+    transition: all 0.25s ease; 
+    transform: scale(0);
+    opacity: 0; 
+  }
+
+  .container-radio input[type=radio]:checked + i:before{
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .container-radio:hover input[type=radio]:not(:checked) + i{
+    background: #faa30396;/*color al pasar mouse*/
+  }
+    /* end estilos de radio button */
+
+
+    /* begin messages */
+  .error-message{
+    color: #E3211E;
+    font-weight: bold;
+    text-align: justify;
+  }
+
+    /* contenedor de respuesta del servidor */
+  .response{
+    margin: 20px auto 0px auto;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: justify;
+  }
+  .response--medium{
+    max-width: 800px;
+  }
+
+    /* estilo de respuesta con un error */
+  .response--error{
+    border: 2px dashed red;
+    background-color: #FFEDED;
+    color: red;
+  }
+
+  .response--error::before{
+    content:"\f06a";
+    padding-right: 10px;
+    font-family: FontAwesome;
+  }
+  
+    /* estilo de respuesta exitosa */
+  .response--success{
+    background-color: #E9FCFA;
+    border: 2px dashed #00B58E;
+    color: #00B58E;
+  }
+
+  .response--success::before{
+    content:"\f058";
+    padding-right: 10px;
+    font-family: FontAwesome;
+  }
+  
+    /* estilo de poceso antes de recibir la respuesta */
+  .response--process{
+    color: #8a8888;
+    font-size: 20px;
+  }
+
+    /* end messages */
+
+    /* estilo para agregar cierre de mensaje de respuesta del servidor */
+  .response__close{
+    float: right;
+    cursor: pointer;
+    padding-left: 10px;
+  }
+
+    /* efecto al pasar mouse en cierre de mensaje de respuesta del servidor */
+  .response__close:hover{
+    text-shadow: 1px 1px #000000;
+  }
+
+/* END ELEMENTS */
+
+
+
+/* END STRUCTURE */
+
+
+  
